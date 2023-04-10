@@ -1,1 +1,143 @@
-html page
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="REA.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <button id="returnToHomePage">Home</button>
+            </div>
+            <div class="SearchBox">
+                <button><span class="material-symbols-outlined">
+                        search
+                    </span></button>
+                <input type="text" id="SearchText" placeholder="Enter an address, neighborhood, city, or state">
+                <!-- imput elements
+                street address
+                property type
+                city, state -->
+                <button><span class="material-symbols-outlined">
+                        close
+                    </span></button>
+            </div>
+            <div>
+                <button id="goToAboutPage">About</button>
+                <!-- dummy property information -->
+            </div>
+            <div>
+                <button id="goToAccountPage">Sign-in</button>
+            </div>
+        </nav>
+
+        <body>
+            <h1>Helping you find Home!</h1>
+            <img class="HeaderPic"
+                src="https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=978&q=80"
+                alt="RedRoofHouse">
+
+        </body>
+    </header>
+
+    <main>
+        <!-- submit button add property to favorites -->
+        <!-- property comment text box, button -->
+        <img class="KeysNextToHouse"
+            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnV5aW5nJTIwYSUyMGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="KeysNextToHouse">
+        </image>
+        <!-- <img src="https://plus.unsplash.com/premium_photo-1663091845370-c425a9819396?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDl8fG1vdmluZyUyMGlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="FamilyMovingIn"> -->
+    </main>
+
+    <footer>
+        <div>
+            <button id="goToContactUsPage">Contact</button>
+            <!-- include dummy contact data -->
+        </div>
+        <p>Welcome Home!</p>
+        <div>
+            <input type="text" placeholder="How did we do?">
+            <button id="SubmitComment">Submit</button>
+        </div>
+    </footer>
+    <script src="REA.js"></script>
+</body>
+
+</html>
+
+<!-- make footer -->
+<!--  -->
+
+<!-- Success Metrics (Rubric)
+Feel free to write the code however you want—as long as your final product meets the following requirements.
+
+General Code
+The real-estate app is written so that it manipulates an array of objects.
+The design choices are explained and documented in comments.
+DOM elements are styled via CSS.
+
+Adding and Removing
+Users can add and remove objects from an array by creating input elements, entering data into those elements, and then
+selecting a SUBMIT button.
+The array is both responsive and accurately rendered in the browser window.
+Users can enter a street address, a property type (such as house, apartment, or loft), a city, and a state in input
+elements.
+
+Comments
+Users can leave comments no longer than a tweet—that is, 280 characters—on any house they want.
+Users can select a Comment button that reveals a text input element. They can then enter their comment and select Send
+to add it to the house's object in the array.
+Data is stored either locally or in state memory. Neither a database nor persistence is required.
+
+Optional: Registration
+A user can access the book data only if they have registered a new username and password.
+After registering, a user gets redirected to the real-estate web app, where they can observe some property data, add
+properties to the app, and so on.
+The credentials are not stored in a database and encrypted for later sign-in. This is just an exercise to make the app
+more like a real-world web app.
+
+Submission
+Submit a link to your GitHub repository. -->
+
+
+
+
+<!-- Plan and Design the App:
+Decide on the overall layout and design of the app, including the navigation and input elements. Think about how you want to display the list of properties and their details, and how you want to allow users to add comments.
+
+Create HTML and CSS files:
+Create an HTML file to hold the structure of your app, and a CSS file to style the elements. Use semantic HTML to create a well-structured document.
+
+Set up the JavaScript File:
+Link the JavaScript file to your HTML file, and set up any necessary global variables. Think about how you want to store the data for the properties and the comments.
+
+Create the Navigation and Input Elements:
+Create the navigation bar and footer using HTML and CSS. Create input elements for street address, property type, city, and state.
+
+Create the Submit Button:
+Create a submit button that will add the new property to the array.
+
+Add Event Listeners:
+Use JavaScript to add event listeners to the submit button and any other interactive elements. For example, when the user clicks the submit button, the data from the input elements should be collected and added to the array.
+
+Display the Properties:
+Use JavaScript to loop through the array of properties and display them on the page.
+
+Create Comment Functionality:
+Add a comment button to each property, and use JavaScript to add event listeners to the comment button. When the user clicks the comment button, a text input element should appear where the user can enter their comment. Once the comment is submitted, it should be added to the array for that property.
+
+Test the App:
+Test the app to make sure it works as expected. Make any necessary tweaks to the code, HTML, and CSS to improve the user experience. -->
